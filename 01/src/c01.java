@@ -22,7 +22,7 @@ Scanner input = new Scanner(System.in);
 			
 			if((n-186)%30==0)
 				r=(n-186)/30+6;
-			if((n-186)%30!=0)
+			if((n-186)%31!=0)
 				r=(n-186)/30+6+1;
 		 }
 		if(n>=337)
